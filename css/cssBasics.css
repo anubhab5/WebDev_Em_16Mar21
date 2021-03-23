@@ -1,0 +1,21 @@
+/* h2 {
+    color: blue;
+    background-color: lightblue;
+} */
+
+.add-color {
+    color: blue;
+    background-color: burlywood;
+}
+
+.make-it-uppercase {
+    text-transform: uppercase;
+}
+/* commenting */
+#heading {
+    text-transform: uppercase;
+    font-weight: bolder;;
+    color: crimson;
+    font-size: 30px;
+}
+

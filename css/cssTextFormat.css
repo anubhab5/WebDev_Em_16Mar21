@@ -1,0 +1,24 @@
+.color-prop {
+  color: #9fa2f1; /* 0 -9 a-f ::: HEXADECIMAL VALUE*/
+  background-color: rgb(
+    23,
+    67,
+    99
+  ); /* 0 - 255 * : RGB FORMAT : RED, GREEN BLUE */
+  padding: 10px;
+}
+
+.txt-alignmnt {
+  text-align: center;
+  direction: ltr; /* rtl: right to left ; ltr: left to right*/
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.alignment {
+    vertical-align: top;
+}
