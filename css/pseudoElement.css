@@ -1,0 +1,36 @@
+p {
+  text-indent: 10px;
+}
+
+/* p::first-letter {
+    color: red;
+    font-size: 2rem;
+} */
+
+.color-first-character::first-letter {
+  color: blue;
+  font-size: 2rem;
+}
+
+.color-first-character::first-line {
+  /* color: blue;
+  background-color: yellow; */
+}
+.color-first-character::before {
+  /* content: url(../assets/img_avatar2.png); */
+  /* content: "India "; */
+}
+
+.color-first-character::after {
+  /* content: url(../assets/img_avatar2.png); */
+  /* content: "India "; */
+}
+.color-first-character::selection {
+  background-color: yellowgreen;
+  color: red;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}

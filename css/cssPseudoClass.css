@@ -1,0 +1,34 @@
+h3   {
+    padding: 20px;
+    background-color: tomato;
+    color: yellow;
+    border: red solid 5px;
+}
+
+/* h3:hover{
+    background-color: greenyellow;
+    color: green;
+    border: green solid 5px;
+} */
+
+.hover-effect:hover {
+    background-color: greenyellow;
+    color: green;
+    border: green solid 5px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}

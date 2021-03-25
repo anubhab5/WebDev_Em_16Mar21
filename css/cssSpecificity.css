@@ -1,0 +1,17 @@
+
+
+#code-snippet {
+    color: red;
+}
+
+code {
+    color: rgb(128, 0, 38)!important;
+}
+
+span code {
+    color: blue;
+}
+
+.code-snipp {
+    color: yellow;
+}

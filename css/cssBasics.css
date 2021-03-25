@@ -19,3 +19,17 @@
     font-size: 30px;
 }
 
+
+
+img {
+    opacity: 0.6;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+ul li {
+    list-style-type: lower-alpha;
+}

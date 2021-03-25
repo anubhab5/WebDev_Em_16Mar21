@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssSpecificity</title>
+    <link rel="stylesheet" href="./cssSpecificity.css">
+</head>
+<body>
+    <h3>css Specificity</h3>
+    <hr>
+
+
+    <div>
+        <span>
+            <code style="color:hotpink" class="code-snipp" id="code-snippet">var firstName = "John";</code>
+            <!-- <code class="code-snipp" >var firstName = "John";</code> -->
+            <!-- <code>var firstName = "John";</code> -->
+        </span>
+    </div>
+
+    <ol>
+        <li>!important ::: 10000</li>
+        <li>Inline Style ::: 1000</li>
+        <li>Id ::: 100</li>
+        <li> class, attribute, pseudo-class ::: 10</li>
+        <li> element and pseudo-element ::: 1</li>
+    </ol>
+    
+
+</body>
+</html>

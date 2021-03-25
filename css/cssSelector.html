@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css Selector</title>
+    <link rel="stylesheet" href="./cssSelector.css">
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+    <hr />
+    <ol>
+      <li>Simple Selector</li>
+      <li>Combinator Selector</li>
+      <li>Pseudo-class Selector</li>
+      <li>Pseudo-element Selector</li>
+      <li>Attribute Selector</li>
+    </ol>
+    <hr />
+    Simple Selector
+    <ol>
+      <li>Element name eg: h2 {}, p {}</li>
+      <li>.class-name {}</li>
+      <li>#id_name {}</li>
+    </ol>
+    <hr />
+    <h3>Combinator Selector</h3>
+    <ol>
+        <li>Descendant Selector  (<code>space</code>) </li>
+        <li>Child Selector (<code> > </code>)</li>
+        <li>Adjacent sibling (<code> + </code>)</li>
+        <li>General Sibling Selector (<code> ~ </code>)</li>
+    </ol>
+
+1. apply style to all spans which are under/ descendants to div 
+    <div>
+        <div>this is paragraph</div>
+        <p>
+            <!-- <span> -->
+                This is span inside div and p
+            <!-- </span> -->
+        </p>
+        <div>this is another div</div>
+        <span>span here</span>
+        <p>
+            <a href="">google</a>
+        </p>
+        <p>this is 2nd p tag</p>
+        <p>
+            <!-- <div> -->
+                <span>
+                    this is 3rd span
+                </span>
+            <!-- </div> -->
+        </p>
+    </div>
+
+
+
+
+
+
+
+    <!-- <div>
+      <p>
+          <span>
+              <a href=""></a>
+          </span>
+          <span></span>
+          <span></span>
+      </p>
+      <p>
+          <img src="" alt="">
+      </p>
+      <span></span>
+    </div>
+
+parent
+child/ children
+grand-child/ grand-children 
+sibling
+adjacent-sibling -->
+
+
+  </body>
+</html>

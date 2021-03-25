@@ -1,0 +1,46 @@
+/* header {
+    height: 40px;
+    background-color: tomato;
+    font-size: 24px;
+    color: white;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+  } */
+
+
+  @media only screen and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
+      header {
+        height: 30px;
+        background-color: blue;
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        top: 0px;
+      }
+      img{
+        width: 75px;
+        height: 75px;
+    }
+  }
+
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    header {
+      height: 30px;
+      background-color: green;
+      font-size: 20px;
+      color: white;
+      width: 100%;
+      top: 0px;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* @media only screen and (min-width: 769px) and (max-width: 992px) */
+/* @media only screen and (min-width: 993px) and (max-width: 1200px) */
+/* @media only screen and (min-width: 1201px)   {} */

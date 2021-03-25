@@ -1,0 +1,53 @@
+#employee {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'New Tegomin', serif;
+}
+
+#employee td, #employee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employee th {
+    padding: 12px 5px;
+    text-align: left;
+    background-color: #3caf50;
+    color: white;
+}
+
+#employee tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#employee tr:nth-child(odd) {
+    background-color: #c9bfbf;
+}
+
+#employee tr:hover {
+    background-color: #ddd;
+}
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    padding: 12px 5px;
+    text-align: left;
+    background-color: #3caf50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+} */

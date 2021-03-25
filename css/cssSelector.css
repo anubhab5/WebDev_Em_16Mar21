@@ -1,0 +1,40 @@
+/* descendant selector */
+/* div span {
+    color: brown;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+div p  {
+    background-color: red;
+} */
+
+/* Child Selector  >*/
+
+/* div>p {
+    background-color: yellow;
+    color: brown;
+} */
+/* div>span {
+    background-color: yellow;
+    color: brown;
+} */
+
+/* Adjacent Sibling Selector  + */
+/* div+p{
+    background-color: yellow;
+    color: brown;
+} */
+
+/* p + p {
+  background-color: yellow;
+  color: brown;
+} */
+
+
+/* General Sibling Selector  ~ */
+
+div~p{
+    background-color: yellow;
+    color: brown;
+}

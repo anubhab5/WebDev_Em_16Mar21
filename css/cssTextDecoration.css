@@ -1,0 +1,21 @@
+.txt-dec {
+    text-decoration: underline; /* overline linethrough , def: none */
+}
+
+.txt-transform {
+    text-transform: capitalize; /* default: none,  uppercase, lowercase, capitalize*/
+}
+
+.txt-indent {
+    text-indent: 30px;
+}
+
+.letter-spacing {
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+
+.txt-shadow {
+    text-shadow: 6px -2px 13px lightgreen;
+}

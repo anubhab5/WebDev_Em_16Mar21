@@ -1,0 +1,49 @@
+/* position relative */
+.container {
+  position: relative;
+  top: 9px;
+  /* left: 35px; */
+  /* bottom: 7px; */
+  right: 14px;
+}
+
+/* Position fixed */
+/* header {
+  height: 40px;
+  background-color: tomato;
+  font-size: 24px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+} */
+
+/* position absolute */
+
+.super-parent {
+
+}
+
+.just-parent {
+    position: absolute;
+}
+
+.container-abs {
+  position: relative;
+}
+
+.inner-content-abs {
+    position: absolute;
+}
+
+
+/* position sticky */
+header {
+    height: 40px;
+    background-color: tomato;
+    font-size: 24px;
+    color: white;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+  }
