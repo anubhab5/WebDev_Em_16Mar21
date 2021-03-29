@@ -1,0 +1,25 @@
+1. Odd, Even
+2. Table of 9 ... till 10 times
+3. Fibonacci series of n = 5, 9
+4. Whether a number is prime or not (x)
+
+Fibonacci Series ---
+    1, 1, => 2, 3, 5, 8, 13...
+    0, 1
+    2,3, 5/8
+
+Prime ---
+    any number which leaves no remainder when divided by 1 and itself
+    13
+    13 => Prime / Not Prime
+
+
+NO INTERNET
+NO CONSULTATION
+
+TO-DO-
+OBJECTS
+STRICT MODE
+THIS KEYWORD
+ES6 FEATURES
+DOM manipulation

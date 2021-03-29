@@ -51,8 +51,13 @@ obj = {
     address: {
         houseNumber: "A101",
         streetName: ""
+    },
+    getDetail: function() {
+        return obj.firstName;
     }
 }
+
+
 
 console.log(obj);
 console.log(typeof(obj));
